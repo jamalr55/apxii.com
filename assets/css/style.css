@@ -1553,6 +1553,8 @@ body.has-loading-screen.loading-done:after {
 -------------------------------------------*/
 
 .navbar {
+    display: flex;
+    flex-direction: column;
     font-size: .875rem;
     font-weight: 500;
     padding-bottom: 2rem;
@@ -1576,6 +1578,10 @@ body.has-loading-screen.loading-done:after {
 [class*="navbar-expand"] .navbar-nav .nav-link {
     padding-top: .3125rem;
     padding-bottom: .3125rem;
+}
+
+.tradingview-widget-container {
+    margin: 10px 0;
 }
 
 /*XL*/
